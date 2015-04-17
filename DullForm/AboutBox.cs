@@ -71,12 +71,12 @@ namespace Dullware.Library
             TextBox tb;
             tb = new TextBox();
             tb.Parent = this;
-            tb.Width = 170;
+            tb.Width = 140;
             ypos += 20;
             tb.Location = new Point(xpos, ypos);
             tb.ReadOnly = true;
             tb.BorderStyle = 0;
-            tb.Text = " http://albus.fenk.wur.nl/~dullware";
+            tb.Text = " https://github.com/Dullware";
 
             PictureBox pxbox = new PictureBox();
             pxbox.Parent = this;
